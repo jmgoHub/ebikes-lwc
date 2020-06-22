@@ -3,10 +3,22 @@
   "edition": "Developer",
   "hasSampleData": "false",
   "settings": {
-      "orgPreferenceSettings": {
-          "s1DesktopEnabled": true,
-          "selfSetPasswordInApi": true,
-          "s1EncryptedStoragePref2": false
+    "communitiesSettings": {
+      "enableNetworksEnabled": false
+    },
+    "lightningExperienceSettings": {
+      "enableS1DesktopEnabled": true
+    },
+    "pathAssistantSettings": {
+      "pathAssistantEnabled": true
+    },
+    "mobileSettings": {
+      "enableS1EncryptedStoragePref2": false
+    },
+    "securitySettings": {
+      "passwordPolicies": {
+        "enableSetPasswordInApi": true
       }
+    }
   }
 }
